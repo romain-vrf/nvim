@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+config 	lua/plugins/lsp/lspconfig.lua	/^  config = function()$/;"	f
+config 	lua/plugins/lsp/mason.lua	/^  config = function()$/;"	f
+config 	lua/plugins/lualine.lua	/^  config = function()$/;"	f
+config 	lua/plugins/nvim-cmp.lua	/^  config = function()$/;"	f
+config 	lua/plugins/nvim-tree.lua	/^  config = function()$/;"	f
+config 	lua/plugins/telescope.lua	/^  config = function()$/;"	f
+config 	lua/plugins/tokyonight.lua	/^  config = function()$/;"	f
+config 	lua/plugins/treesitter.lua	/^  config = function()$/;"	f
+expand 	lua/plugins/nvim-cmp.lua	/^        expand = function(args)$/;"	f
+local lsp_attach 	lua/plugins/lsp/lspconfig.lua	/^    local lsp_attach = function(_, bufnr)$/;"	f
+local new_line 	lua/core/commands.lua	/^    local new_line = line:gsub("(%d%d%d%d%d%d%d%d%d%d)", function(epoch)$/;"	f
+lua_ls 	lua/plugins/lsp/mason.lua	/^        lua_ls = function()$/;"	f
+map	lua/plugins/gitsigns.lua	/^      local function map(mode, l, r, desc)$/;"	f
+on_attach 	lua/plugins/gitsigns.lua	/^    on_attach = function(bufnr)$/;"	f
+pylsp 	lua/plugins/lsp/mason.lua	/^        pylsp = function()$/;"	f
+ruff 	lua/plugins/lsp/mason.lua	/^         ruff = function()$/;"	f
+rust_analyzer 	lua/plugins/lsp/mason.lua	/^        rust_analyzer = function()$/;"	f
